@@ -93,10 +93,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '用户手册（开发中）',
+          label: '用户手册',
         },
-        // {to: '/blog', label: '教程（开发中）', position: 'left'},
-        // {to: '/rule/intro', label: '管理制度', position: 'left'},
+        {to: '/blog', label: '教程（开发中）', position: 'left'},
         {
           href: 'https://github.com/IssacRunmin/usslab-user-doc',
           label: 'GitHub',
