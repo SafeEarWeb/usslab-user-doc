@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '简单易用',
+    Svg: require('@site/static/img/undraw_smallerblack_paperwork.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       只需一条命令，系统会自动将任务提交到合适的计算节点，并为你分配所需的GPU资源。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '专注科研',
+    Svg: require('@site/static/img/undraw_smallerblack_desktop.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        集群计算帮助你专注于代码开发，无需担心资源或数据的存放位置。分布式文件系统使数据共享变得更加便捷。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '更多功能',
+    Svg: require('@site/static/img/undraw_smallerblack_programmer.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        目前支持微信通知任务完成，未来将可能推出任务数据可视化、文件管理、数据集管理等功能。
       </>
     ),
   },
