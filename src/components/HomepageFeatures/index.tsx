@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_smallerblack_programmer.svg').default,
     description: (
       <>
-        目前支持微信通知任务完成，未来将可能推出任务数据可视化、文件管理、数据集管理等功能。
+        目前支持微信通知任务完成，未来将迁移到钉钉，可能推出任务数据可视化、文件管理、数据集管理等功能。
       </>
     ),
   },

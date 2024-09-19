@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "集群基础",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "基础的连接和任务提交方法"
   }
 }

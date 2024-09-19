@@ -93,9 +93,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '用户手册',
+          label: '用户手册（开发中）',
         },
-        {to: '/blog', label: '教程', position: 'left'},
+        // {to: '/blog', label: '教程（开发中）', position: 'left'},
+        // {to: '/rule/intro', label: '管理制度', position: 'left'},
         {
           href: 'https://github.com/IssacRunmin/usslab-user-doc',
           label: 'GitHub',
@@ -106,15 +107,19 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
+        {
+          title: ' ',
+          items: [
+            {
+              label: '管理制度',
+              to: '/rule',
+            },
+            {
+              label: '欢迎贡献',
+              to: '/contribute',
+            }
+          ],
+        },
         // {
         //   title: 'Community',
         //   items: [
