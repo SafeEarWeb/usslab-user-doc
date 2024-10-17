@@ -22,7 +22,9 @@ title: '集群基础——知识'
 - GPU 与 CPU 的区别以及在 HPC 中的角色
 
 ## 作业管理系统（SLURM）简介 
-	•	什么是 SLURM 以及如何在集群中管理作业？
+
+Slurm(Simple Linux Utility for Resource Management，http://slurm.schedmd.com/)是开源的、具有容错性和高度可扩展大型和小型Linux集群资源管理和作业调度系统。
+
 	•	常见的 SLURM 作业类型（批处理、交互式、并行）
 	（和未组成集群的warrior、fool、magacian服务器）
 
