@@ -4,6 +4,15 @@ sidebar_label: '更新日志'
 title: '更新日志'
 ---
 
+### USSLAB_HPC-doc-v1.1: 2024-10-26
+
+- 集群基础--基础知识[[add](./tutorial-basics/0_Basic.md#环境模块module)]: 增加环境模块（module）描述
+- 集群基础——基础操作：
+  - [[modify](./tutorial-basics/2_Operation.md#批处理提交sbatch)]: 增加模块加载，可以在脚本里使用`conda activate`
+  - [[add](./tutorial-basics/2_Operation.md#查看队列squeue)]: 查看队列和排队原因
+  - [[add](./tutorial-basics/2_Operation.md#取消作业scancel)]: 取消作业的操作
+- 集群进阶--环境管理[[init](./tutorial-extras/3_advance_opt.md)]: 增加module相关命令
+
 ### USSLAB_HPC-doc-v1.0: 2024-10-17
 
 - 写在前面[init]：注意事项

@@ -68,6 +68,7 @@ normal* node28 gpu:rtx3090:6,shard:rtx3090:144
 
 - 高性能区域(highend)节点`node29`，配备了A800显卡4张，可分配显存320GB，即每张显卡80GB显存
 - 普通区域(normal)节点`node28`，配备了RTX3090显卡6张，可分配显存144GB，即每张显卡24GB显存
+- normal'*'表示默认提交在这个分区
 - 可以申请超过一张显卡的显存用量，如上述例子中`--gres=shard:90`申请了90GB，但A800一张卡只有80GB，这样相当于申请了两张显卡，并且和其他人共享一张（`nvidia-smi`中有他人的任务）。针对上述情况，请使用智能分配策略拆分模型，如`transformers`的`device_map="auto"`:
   > transformers.AutoModelForCausalLM.from_pretrained('xxx', device_map="auto")
 

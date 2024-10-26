@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: '连接'
-title: '集群基础——连接'
+title: '连接'
 ---
 
 ## 连接途径
