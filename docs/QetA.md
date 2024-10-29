@@ -4,6 +4,19 @@ sidebar_label: '常见问题'
 title: 'QA'
 ---
 
+计划在[google groups](https://groups.google.com/g/usslab-server-maintain)建立一个问题维护，可以看到大家常问的问题。欢迎加入
+
+（当然，在左上GitHub里发[issue](https://github.com/IssacRunmin/usslab-user-doc/issues)也是可以的）
+
+<details>
+  <summary>找不到想要的问题/答案？</summary>
+请[email](mailto:ourunmin@zju.edu.cn)，在询问管理员问题前看看[这个](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+
+- 为什么是email？不是管理员想摆架子，TA也有自己的事情正忙，也许此刻不想被打断
+- 如果大家遇到相似的问题都找一次admin，那TA要被烦死了_(:з」∠)_
+- 只要表明在问问题前做了一些努力，admin还是很愿意帮助你的！Feel free to ask.
+</details>
+
 ## Q1: 如何登录到节点，我有些历史数据存放在/home目录中
 
 A: 你可以通过在登录节点moon使用srun来登录到特定节点：
