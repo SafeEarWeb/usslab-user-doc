@@ -6,6 +6,10 @@ title: '更新日志'
 
 ## v1.1-pre-release: 2024-10-17 ~ 2024-10-29
 
+### doc-v1.1.3: 2024-10-30
+
+- 集群进阶--远程调试[[modify](./tutorial-extras/2_remote_debug.md)]: 详尽描述远程调试方法
+
 ### doc-v1.1.2: 2024-10-29
 
 - 写在前面[add](./intro.md): 增加提问方式
